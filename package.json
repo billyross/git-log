@@ -1,0 +1,17 @@
+{
+  "name": "jira-log",
+  "version": "0.1.0",
+  "description": "Traverse a git repository to classify Jira tags in commits",
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "jira-log": "./cli.js"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "jira-client": "^6.8.0",
+    "moment": "^2.24.0",
+    "nodegit": "^0.24.3",
+    "yargs": "^13.3.0"
+  }
+}
